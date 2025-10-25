@@ -6,7 +6,9 @@ const AuthLayout = ({ children }) => {
     <div className="flex flex-col md:flex-row h-screen">
       {/* Left side - always visible */}
       <div className="w-full md:w-[60%] px-6 md:px-12 pt-8 pb-12 bg-white overflow-y-auto">
-        <h2 className="text-lg font-medium text-black mb-4">Task Manager</h2>
+        <h2 className="text-lg font-medium text-black mb-4">
+          Joineazy AssignHub
+        </h2>
         {children}
       </div>
 
